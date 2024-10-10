@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkers Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="fixed-header">
+        <h1>CSCI 130 CHECKER</h1>
+        <div class="logo">
+            <img src="images/bulldog.png" alt="FSU_bulldog">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Main Page</a></li>
+                <li><a href="game.html" class="active">To Game</a></li>
+                <li id="loadData"><a href="leaderboard.html">LeaderBoard</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+       <!---Game Start Here-->
+    <div class="settings">
+        <div>
+            <label for="playerMode">Select Player Mode:</label>
+            <select id="playerMode">
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+            </select>
+        </div>
+        <div>
+            <label for="boardSize">Select Board Size:</label>
+            <select id="boardSize" onchange="changeBoardSize()">
+              <option value="8" selected>8x8</option>
+              <option value="10">10x10</option>
+            </select>
+        </div>
+        <div>
+            <label for="boardColor">Select Board Color:</label>
+            <select id="boardColor">
+                <option value="default" selected>Default</option>
+                <option value="green">Green</option>
+                <option value="red">Red</option>
+            </select>
+        </div>
+        <div>
+          <label for="player1ColorSelector">Player 1's Color</label>
+            <select id="player1ColorSelector" onchange="updatePieceColors()">
+                <option value="white">White (default)</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+              </select>
+          </div>
+          <div>
+          <label for="player2ColorSelector">Player 2's Color</label>
+              <select id="player2ColorSelector" onchange="updatePieceColors()">
+                <option value="black">Black (default)</option>
+                <option value="yellow">Yellow</option>
+                <option value="purple">Purple</option>
+                <option value="orange">Orange</option>
+              </select>
+        </div>
+    </div>
+
+    <div class="begin">
+          <button onclick="startGame()">Start Game</button>
+          <button onclick="restartGame()">Restart Game</button>
+    </div><br>
+
+    <div class="container">
+      <div class="player-info">
+        <div class="next-player counter">
+          <div class="occupied whitePiece" id="next-player"></div>
+          Player
+        </div>
+        <div class="counter">
+          <div>
+            <div class="occupied whitePiece"></div>
+            <span id="white-player-count-pieces">10</span>
+          </div>
+          <div>
+            <div class="occupied blackPiece"></div>
+            <span id="black-player-count-pieces">10</span>
+          </div>
+        </div>
+      </div>
+      <div class="gameplay">
+        <span id="playtime">Playtime: 0 minutes 0 seconds</span>
+        <div class="game" id="game"></div>
+      </div>
+    </div>
+    
+
+  <div id="easyModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-body">
+            <p><span id="time"></span></p>
+            <p>The <strong id="winner"></strong> player won the game !</p>
+            <p> <span id="loser"></span>, would you like to restart the match?</p>
+
+            <div class="btn-container">
+              <button class="btn" onclick="location.reload()">Yes </button>
+              <button class="btn" onclick="modalClose()">No</button>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+  <script src="javascript/function.js"></script>
+  <script src="javascript/script.js"></script>
+  <script src="javascript/login.js"></script>
+  
+</body>
+</html>

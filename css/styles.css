@@ -1,0 +1,465 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.main{
+    position: relative;
+    top: 150px;
+    margin-top: 0px;
+    text-align: center;
+    
+}
+
+
+/* Style the fixed header */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #b1102b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Center the h1 text */
+.fixed-header h1 {
+    margin: 0px;
+}
+
+/* Style the header content */
+.header-content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo */
+.logo img {
+    width: 90px; /* Adjust size as needed */
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 85%;
+    transform: translateY(-50%);
+}
+
+/* Style the navigation links */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-top: 30px;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/*style active link*/
+nav ul li a.active{
+    text-decoration: underline;
+}
+
+#image {
+    text-align: center;
+}
+
+#image img {
+    max-width: 100%; /* Ensure the image fits within its container */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 80vh; /* Limit the maximum height to 80% of the viewport height */
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Style the main content */
+.main {
+    max-width: 900px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 0 20px; /* Add padding on the left and right sides */
+}
+
+/* Style headings and paragraphs */
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section p {
+    line-height: 1.6;
+    text-align: left;
+}
+
+section ul{
+    margin: 0;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/**********************************For contact.html***********************************/
+/* Style the profiles container */
+.profiles {
+
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items: center; /* Vertically center profiles */
+    margin-top: 80px; /* Add margin between heading and profiles */
+}
+
+/* Style individual profile */
+.profile {
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%; /* Create rounded image */
+    width: 200px; /* Adjust image width */
+    height: 200px; /* Adjust image height */
+    object-fit: cover; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add space between image and text */
+}
+
+.profile h2 {
+    margin: 5px 0;
+}
+
+.profile p {
+    margin: 0;
+}
+
+
+
+/* Style the frame around the image */
+.image-frame {
+    display: inline-block; /* Ensure block element for border */
+    border: 5px solid #000; /* Adjust border width and color */
+    padding: 10px; /* Add space between the frame and image */
+    border-radius: 10px; /* Rounded corners for the frame */
+}
+
+/* Style the image within the frame */
+.framed-image {
+    display: block;
+    width: 100%; /* Adjust image width */
+    height: auto;
+}
+
+
+/*************************************** game.html **************************************/
+   
+  
+  .settings {
+    display: flex;
+    flex-direction: row; /* Align div elements in a row */
+    justify-content: space-around; /* Adjust spacing between div elements */
+    align-items: center;
+    margin-top: 200px;
+  }
+  
+  .settings div {
+    margin-bottom: 10px;
+    flex: 1; /* Allow the divs to occupy equal space */
+  }
+  
+  .settings h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  label {
+    margin-right: 5px;
+    font-size: 1rem;
+  }
+  
+  select {
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .begin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .begin button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  /* Additional styling can be added as needed */
+  
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  
+  .player-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .next-player {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    margin-right: 50px;
+  }
+  
+  .counter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #ecc59a;
+    padding: 10px 20px;
+    border: 1px solid #ecc59a;
+    border-radius: 5px;
+  }
+  
+  .counter div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .gameplay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  #playtime {
+    color: black;
+  }
+  
+  /* Other styles for game elements */
+  
+  #playtime{
+    color: black;
+  }
+  
+  /*
+  .playtime{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+  }
+  */
+  .occupied {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  .occupied.whitePiece {
+    background-color: white;
+  }
+  
+  .occcupied.redPiece{
+    background-color: red;
+  }
+  
+  .occupied.blackPiece {
+    background-color: black;
+  }
+  
+  
+  .game {
+    background-color: #4c382e;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .game .row {
+    width: 100%;
+    height: 30%;
+    display: flex;
+  }
+  
+  .game .row .column {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .game .row .column .occupied {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+  }
+  
+  .game .row .column .occupied.blackPiece {
+    background-color: black;
+  }
+  
+  .game .row .column .occupied.whitePiece {
+    background-color: white;
+  }
+  
+  .game .row .column.whiteCase {
+    background-color: #4c382e;
+  }
+  
+  .game .row .column.blackCase {
+    background-color: #ecc59a;
+  }
+  
+  .readyToMove {
+    background-color: green;
+  }
+  
+  /* modal style */
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  
+  button{
+      cursor: pointer;
+      /*outline: none;
+      border: none;*/
+  }
+  
+  body {
+      font-family: sans-serif;
+      position: relative;
+      font-size: 16px;
+      line-height: 1.6;
+      color: black;
+      /* background-image: url(https://picsum.photos/1920/1080); */
+      background-size: cover;
+      width: 100vw;
+      height: 100vh;
+    }
+  
+    .modal {
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.8);
+  
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.15s ease-out;
+    }
+    
+    .effect{
+      visibility: visible;
+      opacity: 1;
+    }
+  
+    .modal-content {
+      position: fixed;
+      z-index: 2;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      background-color: #ecc59a;
+      border-radius: 20px;
+    }
+    
+    .modal-body {
+      padding: 5em;
+      color: black;
+    }
+  
+    .modal-body p{
+      text-align: center;
+      font-size: 16px;
+      letter-spacing: 0.1em;
+      color: black;
+    }
+  
+  .modalClose {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      background: none;
+      position: fixed;
+      width: 40px;
+      height: 40px;
+    }
+    .modalClose:before, .modalClose:after {
+      content: "";
+      position: absolute;
+      top: 18px;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: #ecc59a;
+      border-radius: 4px;
+    }
+    .modalClose:before {
+      transform: rotate(45deg);
+    }
+    .modalClose:after {
+      transform: rotate(-45deg);
+    }
+  
+    .modal .btn-container{
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+    .modal .btn{
+      background-color: #4c382e;
+      color: white;
+      padding: 10px 40px;
+      border: 1px solid #4c382e;
+      border-radius: 5px;
+    }
+  
+    

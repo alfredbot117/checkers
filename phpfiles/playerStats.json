@@ -1,0 +1,149 @@
+{
+    "users": [
+        {
+            "username": "yang",
+            "games": [
+                {
+                    "stats": {
+                        "time": 100310,
+                        "win": "won",
+                        "pieces": 80
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 100310,
+                        "win": "won",
+                        "pieces": 80
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 100310,
+                        "win": "won",
+                        "pieces": 80
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 97050,
+                        "win": "won",
+                        "pieces": 0
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 122209,
+                        "win": "won"
+                    }
+                }
+            ]
+        },
+        {
+            "username": "guy1",
+            "games": [
+                {
+                    "stats": {
+                        "time": 114266,
+                        "win": "won",
+                        "pieces": 0
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 241639,
+                        "win": "won",
+                        "pieces": 0
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 149799,
+                        "win": "won",
+                        "pieces": null
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 103465,
+                        "win": "won",
+                        "pieces": null
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 99184,
+                        "win": "lost",
+                        "pieces": null
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 87294,
+                        "win": "won",
+                        "pieces": null
+                    }
+                }
+            ]
+        },
+        {
+            "username": "alex",
+            "games": [
+                {
+                    "stats": {
+                        "time": 89699,
+                        "win": "won"
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 95366,
+                        "win": "won"
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 86746,
+                        "win": "won"
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 127451,
+                        "win": "won"
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 85236,
+                        "win": "won"
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 88445,
+                        "win": "won"
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 104773,
+                        "win": "won"
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 123557,
+                        "win": "won"
+                    }
+                },
+                {
+                    "stats": {
+                        "time": 104033,
+                        "win": "won"
+                    }
+                }
+            ]
+        }
+    ]
+}

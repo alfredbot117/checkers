@@ -1,0 +1,54 @@
+Nov 30 2023
+Yeng -> Create HTML pages structure: index, help, contact, login, game and leaderboard.
+
+Alfredo -> created a button to insert the database
+this also initialized the database with the right values
+
+
+Nov 1 2023
+Yeng -> Implement CSS to design the page layout
+
+Alfredo -> added a sign up system that adds username and password to database, checks if the user is in.
+
+Nov 2 2023
+Yeng -> Continue fixing the CSS, research on how to implement checkers
+        and start creating buttons for checker game's setting
+
+Alfredo -> added the login, the data base checks for username and passowrd, if they are equal to whats in the database then cookie is given back with the usernmae
+
+Nov 3 2023
+Yeng-> Start create a class of piece on game board to store the information
+       of rows and columns. Implement functions initializeBoard() and CreateBoard 
+       to generate a board base on user selection.
+
+Alfredo->created the updatePlayerstats php file so i can add the games won, game, time.
+
+
+Nov 4 2023
+Yeng-> fixing createBoard() and CSS to make the game board and pieces display correcty.
+    -> add and fix the movement logic
+
+Alfredo -> added function to insert everygame into the playerStats.json       
+
+Nov 5 2023
+Yeng -> implement piece and board color functionality. 
+     -> add start and reset button logic.
+
+Alfredo -> added a leaderboard php file that will send back the data for leaderboards of everyone one in the database
+
+Nov 6 2023
+Yeng -> Implement the time function to record the time play in game. 
+     -> add pieces left record function and winning display. 
+
+Alfredo -> inserted xmlhttprequests to the login.js to communicate with php 
+
+Nov 7 2023
+Yeng -> Try to implement the King piece logic but unsuccess
+
+Alfredo -> converted some of the functions to display into the leaderboards page.
+
+Nov 8 2023
+Yeng -> Fixing the bug in displayCurrentPlayer() to make it display player color correctly. 
+     ->  Add the checker game to game.html and fix the CSS conflict.
+    
+Alfredo-> added the mygames.php to display the current logged in players pre games. inserted some function to insert data into the html

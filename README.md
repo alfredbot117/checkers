@@ -2,7 +2,7 @@ Checkers Game
 
 Developed using HTML, CSS, JavaScript, and PHP.
 
-Play checkers against a bot, create an account, and track your scores, which are updated in a database. The game features a ranking system for all users.
+Play checkers, create an account, and track your scores, which are updated in a database. The game features a ranking leaderboard for all users.
 
 Backend Developer: Alfredo Gonzalez
 Responsibilities:
